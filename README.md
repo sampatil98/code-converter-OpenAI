@@ -6,6 +6,14 @@ The Code Converter Application is a versatile tool designed to streamline the pr
 ## Deployed Link
 [Code Converter Application](https://code-editor-sr.netlify.app/)
 
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- OpenAI API
+
 ## Key Features
 
 1. **Language Translation:** Seamlessly convert code snippets from one programming language to another, saving time and effort in manual rewriting.
