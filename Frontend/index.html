@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Code Converter App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.21.2/min/vs/loader.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">Code-<span>Converter 💻</span></nav>
+    <h1 id="heading">Code Converter </h1>
+    <div class="container" id="content">
+        <div id="loader" class="loader"></div>
+        <p id="copyFeedback">Output copied</p>
+
+        <div id="main">
+            <select id="targetLanguage">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="PHP">PHP</option>
+                <option value="TypeScript">TypeScript</option>
+                <option value="Django">Django</option>
+                <option value="Go">Go</option>
+                <option value="Swift">Swift</option>
+                <option value="Ruby">Ruby</option>
+                <option value="JavaScript">JavaScript</option>
+                <!-- Add more target languages -->
+            </select>
+            <button id="convertButton">Convert</button>
+            <button id="degubButton">Debug</button>
+            <button id="qualityCheckButton">Quality Check</button>
+        </div>
+        <div id="wrapbox">
+            <div>
+                <h1>Write Your Code Here</h1>
+                <div id="editor"></div>
+            </div>
+            <div>
+                <h1>Get Converted / Output Code Here</h1>
+                <div id="outputEditor"></div>
+            </div>
+        </div>
+        <div id="copybtndiv">
+            <button id="copy">Copy Output</button>
+            
+        </div>
+
+
+        
+
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
